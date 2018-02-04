@@ -1,0 +1,224 @@
+body {
+    background-color: #f8f8f8;
+}
+.container {
+     width: 800px;
+    margin: 0 auto;
+}
+.header {
+    height: 170px;
+    background-image: url(imgs/0.png)
+}
+.logo {
+    float: left;
+    
+}
+
+.menu li a:hover {
+    color: forestgreen;
+}
+.menu li a:active {
+    color: firebrick;
+}
+.menu li {
+    display: inline-block;
+    width: 150px;
+}
+
+#bookStore {
+    font-family: serif;
+    text-align: center;
+    color: darkseagreen;
+    border: 1px solid cadetblue;
+    line-height: 65px;
+    text-shadow: cadetblue 0 2px; 
+     
+    /* text-shadow: cadetblue 1px 1px 0, cadetblue -1px -1px 0, 
+                 cadetblue -1px 1px 0, cadetblue 1px -1px 0; 
+            'text-circuit'    */ 
+}
+
+#hi {
+    text-align: center;
+    font-weight: 200;
+}
+
+.menuTable {
+    width: 100%;
+    height: 
+}
+
+.menu {
+    list-style-type: none;        /*remove list bullets*/
+    font-family: monospace;
+    font-weight: 400;             
+    font-size: 1.25em;
+    color: cornflowerblue;
+    margin-top: 70px;
+    float: right;
+}
+
+.descSpec {
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #eaeaea;
+    color: black;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specList {
+    list-style-image: url(imgs/books_1f4da.png); 
+    font-size: 17px;
+    font-weight: 100;
+    font-family: cursive;
+    
+}
+.specTable td:first-child {
+    height: 50px;
+    text-align: center;
+}
+
+img[alt="avatar"] {
+    
+    outline: solid forestgreen 3px;
+}
+img[alt="avatar"]:hover {
+    outline: solid 0px;
+}
+
+.email {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 10px;
+}
+
+.inputText {
+    width: 150px;
+    height: auto;
+    color: brown;
+    font-size: 14px;
+}
+
+#message {
+    color: brown;
+    font-size: 14px;
+    resize: none;
+}
+input {
+    text-transform: capitalize;
+}
+textarea {
+    text-transform: capitalize;
+}
+input[type="email"]:focus {
+    color: forestgreen; 
+    background-color: ghostwhite;
+}
+.button {
+    width: 150px;
+}
+
+.specTable {
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    text-align: left;
+}
+/* td {
+    border: 1px solid #000;
+} */
+
+.short:first-letter {
+    font-size: 20px;
+    color: forestgreen;
+    font-family: cursive;
+}
+.long:first-letter {
+    font-size: 20px;
+    color: forestgreen;
+    font-family: cursive;
+}
+
+.footer {
+    height: 100px;
+    text-align: right;
+    background-color: darkseagreen;
+    clear: both;
+}
+
+#C {
+    margin-right: 10px;
+    margin-top: 15px;
+    float: right;
+}
+
+.catalog {
+    text-align: center;
+}
+.catalogTable {
+    width: 100%;
+}
+.productContainer {
+    width: 1000px;
+    margin: 0 auto;
+}
+.product {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+}
+.productFoto {
+    float: left;
+}
+.detailedDescr {
+    clear: both;
+}
+
+.buyButton {
+   margin-left: 20px;
+   width: 100px;
+   height: 36px;
+   border: 1px solid #597252;
+   background: #a1ca94;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #eff1f2;
+   font-size: 17px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.buyButton:hover {
+    background: #8e3e6f;
+    font-size: 28px;
+}
+.buyButton:active {
+    background: #3f95b1;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
